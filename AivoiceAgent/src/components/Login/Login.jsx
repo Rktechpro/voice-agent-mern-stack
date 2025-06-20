@@ -55,17 +55,14 @@ const Login = () => {
   };
 
   return (
-    <div
-      className="w-full h-[100vh] bg-cover flex justify-center items-center bg-gradient-to-t from-[#0b0b0b] to-[#111212ea]"
-      // style={{ background: `url(${first})` }}
-    >
-      <div className="bg-[#0000001a] backdrop-blur-md p-8 rounded-lg shadow-lg w-full max-w-md border-1 border-b-orange-500 border-t-violet-700 border-l-pink-700 border-r-green-600">
-        <h2 className="text-2xl font-bold mb-6 text-center text-gray-200">
+    <div className="min-h-screen w-full bg-gradient-to-t from-[#0b0b0b] to-[#111212ea] flex items-center justify-center px-4">
+      <div className="w-full max-w-md bg-[#0000001a] backdrop-blur-md p-6 sm:p-8 rounded-lg shadow-lg border border-b-orange-500 border-t-violet-700 border-l-pink-700 border-r-green-600">
+        <h2 className="text-2xl sm:text-3xl font-bold mb-6 text-center text-gray-200">
           Login
         </h2>
         <form className="space-y-4" onSubmit={handleSubmit}>
           <div>
-            <label className="block text-sm font-medium text-gray-300">
+            <label className="block text-sm font-medium text-gray-300 mb-1">
               Email
             </label>
             <input
@@ -73,13 +70,13 @@ const Login = () => {
               name="email"
               value={formdata.email}
               onChange={handleChange}
-              className="mt-1 w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 text-white bg-transparent"
+              className="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 text-white bg-transparent"
               placeholder="Enter your email"
               required
             />
           </div>
           <div>
-            <label className="block text-sm font-medium text-gray-300">
+            <label className="block text-sm font-medium text-gray-300 mb-1">
               Password
             </label>
             <div className="relative">
@@ -88,7 +85,7 @@ const Login = () => {
                 name="password"
                 value={formdata.password}
                 onChange={handleChange}
-                className="mt-1 w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 pr-10 text-white bg-transparent"
+                className="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 pr-10 text-white bg-transparent"
                 placeholder="Enter your password"
                 required
               />
