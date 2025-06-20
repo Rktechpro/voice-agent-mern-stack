@@ -15,7 +15,7 @@ app.use(cookieParser());
 app.use(express.json());
 app.use(
   cors({
-    origin: "http://localhost:200",
+    origin: "https://voice-agent-mern-stack-1.onrender.com",
     credentials: true,
   })
 );
