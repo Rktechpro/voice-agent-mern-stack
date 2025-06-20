@@ -59,8 +59,9 @@ const Signup = () => {
 
   return (
     <div
-      className="w-full h-[100vh] bg-cover flex justify-center items-center"
-      style={{ background: `url(${first})` }}
+      className="w-full h-[100vh] bg-cover bg-center bg-no-repeat  flex justify-center items-center bg-gradient-to-t from-[#0b0b0b] to-[#111212ea] "
+      
+      // style={{ background: `url(${first})` }}
     >
       <div className="bg-[#0000001a] backdrop-blur-md p-8 rounded-lg shadow-lg w-full max-w-md border-1 border-b-orange-500 border-t-violet-700 border-l-pink-700 border-r-green-600">
         <h2 className="text-2xl font-bold mb-6 text-center text-gray-200">
