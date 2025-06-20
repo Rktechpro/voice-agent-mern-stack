@@ -36,7 +36,7 @@ const Custom = () => {
   };
 
   return (
-    <div className="w-full h-[100vh] bg-gradient-to-t from-[#c11414] to-[#066e49ea] flex justify-center items-center flex-col sm:h-[100vh] relative   ">
+    <div className="w-full h-[100vh] bg-gradient-to-t from-[#060606] to-[#191919ea] flex justify-center items-center flex-col sm:h-[100vh] relative   ">
       <button
         className="bg-[#227022] hover:bg-[green] outline-none border-none cursor-pointer px-5 py-2 rounded-2xl absolute top-[30px] left-[30px]"
         onClick={() => navagate("/customize")}
