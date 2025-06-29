@@ -54,8 +54,8 @@ npm run dev
 
 ```bash
 PORT=3500
-MONGO_URI=your_mongodb_uri
-JWT_SECRET=your_jwt_secret
+MONGO_URI="your_mongodb_uri"
+JWT_SECRET="your_jwt_secret"
 CLOUD_NAME="cloud_username"
 CREAD_BY="auther_name"
 CLOUD_API_KEY="Key_Api"
