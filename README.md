@@ -37,7 +37,7 @@ cd voice-agent-mern-stack
 ## 🔧/backend
 
 ```bash
-cd server
+cd backend
 npm install
 npm run dev
 ```
@@ -45,7 +45,7 @@ npm run dev
 ## 💻 🎨/Frontend
 
 ```bash
-cd /AivoiceAgent
+cd frontend
 npm install
 npm run dev
 ```
