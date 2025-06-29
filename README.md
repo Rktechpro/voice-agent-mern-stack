@@ -53,9 +53,14 @@ npm run dev
 # 🔐.env file
 
 ```bash
-PORT=5000
+PORT=3500
 MONGO_URI=your_mongodb_uri
 JWT_SECRET=your_jwt_secret
+CLOUD_NAME="cloud_username"
+CREAD_BY="auther_name"
+CLOUD_API_KEY="Key_Api"
+CLOUD_API_SECRET="Key_secret"
+GEMINI_API_URL="Gemini_api_key"
 ```
 
 ### 📄 MIT License
